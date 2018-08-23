@@ -1,0 +1,213 @@
+
+body {
+    background: url("../img/image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+#top-bar{
+    width:100%;
+    height:50px;
+    background:#126380;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    color: #ffffff;
+    text-align: center;
+}
+
+#wel{
+	padding: 60px;
+	font-family: roboto;
+
+}
+
+.top h1{
+	color: #ffffff;
+	text-align: center;
+	text-align: center;
+    vertical-align: middle;
+    line-height: 10px;
+    font-family: roboto;
+    font-weight: bold;
+}
+#log {
+   color: #ffffff;
+   left: 1250px;
+   text-align: center;
+   vertical-align: center;
+   position: relative;
+   bottom: 43px;
+   background: #494949;
+   width: 80px;
+   border-radius: 20px;
+   font-family: roboto;
+   font-size: 13px;
+   height: 30px;
+
+}
+#login-text{
+	color: black;
+	text-align: center;
+	vertical-align: middle;
+    line-height: 30px;
+    font-family: roboto;
+    font-weight: bold;
+}
+#login-bar{
+	width: 350px;
+	height: 30px;
+	background: #D3D3D3;
+	top: -60px;
+	position: relative;
+	left: 588px;
+	
+}
+#login-box {
+  top:-60px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+  background: rgba(255, 253, 253, 0.3);
+  -webkit-box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.5), 0 1px 2px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 200px;
+}
+.login:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+}
+ 
+
+.login p {
+  margin: 20px 0 0;
+
+}
+ 
+.login p:first-child {
+  margin-top: 0;
+}
+
+.login input[type=text] {
+align-content: center;
+
+}
+
+.login input[type=checkbox], .remember_me {
+align-content: center;
+}
+
+.login input[type=text], .login input[type=password] {
+  width: 278px;
+  border-radius:25px;
+  line-height: 25px;
+  background: white;
+  font-family: roboto;
+}
+ 
+.login p.remember_me {
+  float: center;
+  line-height: 31px;
+}
+ 
+.login p.remember_me label {
+  font-size: 12px;
+  color: #777;
+  cursor: pointer;
+}
+ 
+.login p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+ 
+.login p.submit {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+  color: #126380;
+  font-family: roboto;
+
+}
+input[type=submit] {
+	background: #126380;
+	border-color: #126380;
+	border-radius: 25px;
+	line-height: 25px;
+	width: 70px;
+	box-shadow: #126380;
+	color: #fff;
+}
+#top-text input[type=submit] {
+  float: right;
+  display: inline-block;
+  background: #494949;
+  border-color: #494949;
+  border-radius: 25px;
+  line-height: 25px;
+  width: 70px;
+  box-shadow: #494949;
+  color: #fff;
+  position: relative;
+  bottom: 44px;
+  right:10px;
+
+}
+.login-help {
+position: relative;
+  bottom: 15px;
+  margin: 20px 0;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  font-family: roboto;
+  font-style: bold;
+}
+
+.login-help a {
+  color: black;
+  text-decoration: none;
+}
+ 
+.login-help a:hover {
+  text-decoration: underline;
+}
+.top-bar hr {
+ margin-top: 160px;
+}
+
+.text1 {
+  float: left;  
+  display: inline-block;
+  color: white;
+  font-family: roboto;
+  position: relative;
+  left:20px;
+}
+.text2 {
+  text-align: center;
+  color: white;
+  display: inline-block;
+  font-family: roboto;
+  position: relative;
+  left:30px;
+}
+.text3 {
+  float: right;
+  display: inline-block;
+  color: white;
+  font-family: roboto;
+  position: relative;
+  right:20px;
+}
